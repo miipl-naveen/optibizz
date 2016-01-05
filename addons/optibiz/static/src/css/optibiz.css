@@ -1,0 +1,33 @@
+header a.navbar-brand img {
+    max-height: 75px !important;
+}
+
+main .container {
+    margin-top: 10px;
+}
+
+main #product_detail {
+   margin-top: 50px !important;
+}
+
+footer .mt16 {
+  display: none;
+}
+
+.watermark{
+    background: url('http://i.imgur.com/7p0TrbO.png') 0 0;
+    padding-top:15px;
+    padding-left:5px;
+    z-index: 99;
+    background-size: cover;
+    width:652px;
+    height:975px;
+    position:relative;
+ }
+.break{
+        display: block;
+        clear: both;
+        page-break-after: always;
+}
+
+
